@@ -1,0 +1,37 @@
+img {
+  box-shadow: 1px 1px 6px rgb(95, 92, 92);
+  width: 35rem;
+  transition: transform 0.4s;
+}
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 4rem 0 7rem 0;
+}
+.header {
+  height: 5rem;
+  background-color: rgb(64, 60, 60);
+  color: whitesmoke;
+}
+body {
+  background-image: linear-gradient(0, rgb(226, 225, 225), white);
+}
+img:hover {
+  transform: scale(1.5);
+  margin: 3rem 0 3rem 0;
+}
+
+.blur {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+@media only screen and (max-width: 426px) {
+  img {
+    box-shadow: 1px 1px 6px rgb(95, 92, 92);
+    width: 22rem;
+    transition: transform 0.4s;
+  }
+  img:hover {
+    transform: scale(1.15);
+  }
+}
