@@ -28,10 +28,10 @@ img:hover {
 @media only screen and (max-width: 426px) {
   img {
     box-shadow: 1px 1px 6px rgb(95, 92, 92);
-    width: 22rem;
+    width: 20rem;
     transition: transform 0.4s;
   }
   img:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
   }
 }
