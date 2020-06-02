@@ -28,7 +28,7 @@ img:hover {
 @media only screen and (max-width: 500px) {
   img {
     box-shadow: 1px 1px 6px rgb(95, 92, 92);
-    width: 20rem;
+    width: 15rem;
     transition: transform 0.4s;
   }
   img:hover {
